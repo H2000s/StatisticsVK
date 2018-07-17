@@ -9,7 +9,7 @@ import threading
 id1 = 442615506
 id2 = 74166444
 SLEEP_TIME = 1
-LOCATE_DB = '/Users/metalluxx/PycharmProjects/untitled/user.sqlite3'
+LOCATE_DB = '/data/user.sqlite3'
 LOCK = threading.RLock()
 session = vk.Session(access_token='6f80043ae9ac52f0ca1a59538ba0fbaad523639406ec97773daa044be8f9d32ff8990da18b549c894d5cd')
 vkapi = vk.API(session, v=5.80)
